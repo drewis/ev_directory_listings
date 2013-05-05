@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title><!--#echo var="SERVER_NAME" --> at <!--#echo var="REQUEST_URI" --></title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/webdata/favicon.png">
+	<style>
+		body { font-family: 'Roboto'; color: #fff; background-color: #1b1b1b; }
+		a { color: #0099cc; }
+		a:hover, a:focus { color: #0099cc; }
+	</style>
+</head>
+<body>
+	<a href="http://evervolv.com/"><img src="/webdata/header_logo.png"/></a>
+	<p>This website has been decommissioned, it is only kept around so we dont break any links floating around. See <a href="http://evervolv.com/devices/">evervolv.com/devices/</a>
+	<h2>Index of <!--#echo var="REQUEST_URI" --></h2>
+
